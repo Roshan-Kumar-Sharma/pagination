@@ -45,12 +45,12 @@
     border: 1px solid black;
     margin: 1px 3px;
     background-color: antiquewhite;
+    /* width: inherit; */
 }
 
 .data {
     display: flex;
     /* flex-wrap: wrap; */
-    width: inherit;
     /* justify-content: center;
     align-items: center; */
     flex-direction: column;

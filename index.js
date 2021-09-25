@@ -88,12 +88,12 @@ function createCurrentPageData(pageNumber) {
     for (let i = 0; i < pageLimit && i < currentPageData.length; i++) {
         eachData = HTML(
             `<div class="data">
-                <div id=${currentPageData[i].id} class="question">
+                <div id=q${currentPageData[i].id} class="question">
                     <h3>
                         Q.${currentPageData[i].id})&nbsp;${currentPageData[i].title}
                     </h3>
                 </div>
-                <div id=${currentPageData[i].id} class="answer"><b>Answer : </b>${currentPageData[i].body}</div>
+                <div id=a${currentPageData[i].id} class="answer"><b>Answer : </b>${currentPageData[i].body}</div>
             </div>`
         );
         pageDataContainer.append(eachData);
